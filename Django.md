@@ -15,32 +15,32 @@
  pip install Django --upgrade
  ```
  
- -Django 설치경로
+ - Django 설치경로
  ```
  python -c "import django; print(django.__path__)"
  ```
  
- -Django 프로젝스 생성
+ - Django 프로젝스 생성
  ```
  django-admin startproject tempPjt
  ```
  
- -migrate
+ - migrate
  ```
  python manage.py migrate
  ```
  
--Django 관리자 계정생성
+- Django 관리자 계정생성
 ```
 python manage.py createsuperuser
 ```
 
--Django 서버 구동
+- Django 서버 구동
 ```
 python manage.py runserver 0.0.0.0:8000
 ```
 
--테이블 생성  
+- 테이블 생성  
 1.models.py 클래스 정의  
 ```
 from django.db import models
