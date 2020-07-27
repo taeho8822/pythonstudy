@@ -19,11 +19,17 @@
  ```
  python -c "import django; print(django.__path__)"
  ```
- 
- - Django 프로젝스 생성
+  - Django 프로젝스 생성
  ```
  django-admin startproject tempPjt
  ```
+ - Django App 등록
+ ```
+ //
+ 'students.apps.StudentsConfig',
+ ```
+ 
+ 
  
  - migrate
  ```
